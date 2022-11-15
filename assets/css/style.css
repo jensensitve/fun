@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    height: 80px;
+    padding: 20px;
+    font-size: 3rem;
+    background-image: linear-gradient(to left bottom, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, 0.7));
+}
+
+#containerStart {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left top, red, blue);
+}
+
+#container1 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left top, red, rgb(0, 174, 255));
+}
+
+#container2 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left top, red, rgb(0, 255, 221));
+}
+
+#container3 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left top, red, rgb(0, 255, 191));
+}
+
+#container4 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left top, red, rgb(0, 255, 153));
+}
+
+#containerEnde {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left top, red, rgb(0, 255, 34));
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 40px;
+    width: 275px;
+    background-color: burlywood;
+    font-size: 2rem;
+    border: 6px dotted black;
+    color: burlywood;
+}
+
+div a {
+    color: tomato;
+    font-size: 2rem;
+}
+
+div a:hover {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.paddingBottom {
+    padding-bottom: 50px;
+}
+
+.transform1:hover {
+    background-color: hsla(0, 0%, 0%, 0.1);
+    width: 295px;
+    transform: scale(1.5);
+    transition-duration: 9s;
+}
+
+.transform2:hover {
+    background-color: hsla(0, 0%, 0%, 0.3);
+    width: 295px;
+    transform: scale(1.5);
+    transition-duration: 6s;
+}
+
+.transform3:hover {
+    background-color: hsla(0, 0%, 0%, 0.6);
+    width: 295px;
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+
+.transform4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.transform4:hover {
+    background: hsla(0, 0%, 0%, 0.1);
+    color: burlywood;
+    width: 295px;
+    transform: scale(1.5);
+    transition-duration: 1s;
+}
